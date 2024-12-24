@@ -45,7 +45,7 @@ Several features are extracted from the URLs, including:
 - **Count of digits and letters**: The number of digits and alphabetic characters.
 - **Count the number of characters**: This can be a separate feature to count all the characters, including letters, digits, and special characters.
 - **URL shortening services**: Identifying URLs from shortening services (e.g., bit.ly).
--**Check for IP address in the link**: Determine if the URL contains an IP address instead of a domain name.
+- **Check for IP address in the link**: Determine if the URL contains an IP address instead of a domain name.
 
 ### 4. Data Visualization
 - Visualize the distribution of different URL types (benign, defacement, phishing, malware).
