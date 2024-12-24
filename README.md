@@ -37,14 +37,15 @@ This project focuses on detecting malicious URLs by analyzing various URL featur
 ### 3. Feature Engineering
 Several features are extracted from the URLs, including:
 - **URL length**: The total number of characters in the URL.
-- **Primary domain**: The main domain of the URL.
 - **Count of special characters**: The number of special characters in the URL.
 - **Number of words**: The number of words in the URL.
 - **Presence of suspicious words**: Such as 'login', 'admin', etc.
 - **Presence of abnormal URLs**: URLs with uncommon patterns.
 - **Protocol security**: HTTP or HTTPS.
 - **Count of digits and letters**: The number of digits and alphabetic characters.
+- **Count the number of characters**: This can be a separate feature to count all the characters, including letters, digits, and special characters.
 - **URL shortening services**: Identifying URLs from shortening services (e.g., bit.ly).
+-**Check for IP address in the link**: Determine if the URL contains an IP address instead of a domain name.
 
 ### 4. Data Visualization
 - Visualize the distribution of different URL types (benign, defacement, phishing, malware).
